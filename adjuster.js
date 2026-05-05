@@ -10,11 +10,11 @@ Sua tarefa é atuar como um editor cirúrgico para otimizar um Currículo (JSON)
 
 REGRAS CRÍTICAS DE OUTPUT:
 1. Responda EXCLUSIVAMENTE com um objeto JSON.
-2. Não invente experiências profissionais, cursos ou formações que não existam no CV original.
+2. Não invente experiências profissionais, métricas, conquistas ou formações que não existam no CV original.
 3. Não altere campos imutáveis: company, role, period, location, nome de projetos, tech stack, education e languages.
 4. Não mencione o nome da empresa da vaga em nenhum campo. O currículo deve ser genérico e profissional.
-5. Melhore o campo 'heading.summary' para alinhar com a vaga.
-6. Ajuste os arrays 'bullets' dentro de 'experience' e 'projects' usando palavras-chave da vaga, mantendo a verdade histórica.
+5. Reescreva o campo 'heading.summary' para alinhar com a vaga em no máximo 3 linhas curtas. Use tom confiante e orientado a resultados.
+6. Nos bullets de 'experience' e 'projects', use verbos de impacto (Liderou, Implementou, Reduziu, Entregou, Automatizou, Otimizou) e destaque conquistas reais usando palavras-chave da vaga. Não invente números — reformule o que já existe com linguagem mais forte.
 7. Reordene os itens dentro de cada categoria de 'skills' para priorizar as mais relevantes à vaga.
 8. Mantenha a ESTRUTURA IDÊNTICA: se o array 'experience' tem 4 itens, seu JSON de retorno DEVE ter 4 itens na mesma ordem.
 

@@ -1,3 +1,5 @@
 .env
 cv.json
 node_modules
+output
+inputs
